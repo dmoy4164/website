@@ -1,0 +1,34 @@
+.header{
+    font-family: lucida sans;
+    text-align:center;
+    
+}
+.subheader{
+    font-family:'Courier New', Courier, monospace;
+    font-size:small;
+    font-style:italic;
+    margin: 5px;
+    text-align:center;
+}
+.leftparagraph{
+    font-family:monospace;
+    font-size:large;
+}
+.rightparagraph{
+    font-family:monospace;
+    font-size:large;
+}
+.cat{
+    width: 20%;
+}
+.phone{
+    width: 20%;
+ 
+}
+.copyright{
+    text-align:end;
+    font-weight:bold;
+}
+body{
+    background-color:lightcyan;
+}
