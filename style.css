@@ -13,22 +13,41 @@
 .leftparagraph{
     font-family:monospace;
     font-size:large;
+    text-align:center;
 }
 .rightparagraph{
     font-family:monospace;
     font-size:large;
+    text-align:center;
 }
 .cat{
-    width: 20%;
+    width: 22.5%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 .phone{
-    width: 20%;
- 
+    width: 22.5%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 .copyright{
     text-align:end;
     font-weight:bold;
+
+}
+.links{
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+.links li{
+    display:inline-block;
+    font-size:small;
+    
 }
 body{
-    background-color:lightcyan;
+    background-color:lightblue;
+    
 }
