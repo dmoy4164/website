@@ -47,6 +47,19 @@
     font-size:small;
     
 }
+.listheaders{
+    font-size:35px;
+    font-family: monospace;
+    text-decoration:underline;
+    margin:0;
+}
+.list{
+    font-size:20px;
+}
+.charsiu{
+    width:15%;
+    float:right;
+}
 body{
     background-color:lightblue;
     
