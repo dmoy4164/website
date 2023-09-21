@@ -60,6 +60,14 @@
     width:15%;
     float:right;
 }
+.rps{
+    width: 626px;
+    height:600px;
+    flex-direction:row;
+}
+.table{
+    border:2px black;
+}
 body{
     background-color:lightblue;
     
