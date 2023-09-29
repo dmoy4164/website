@@ -20,18 +20,13 @@
     font-size:large;
     text-align:center;
 }
-.cat{
+.idximg{
     width: 22.5%;
     display:block;
     margin-left:auto;
     margin-right:auto;
 }
-.phone{
-    width: 22.5%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-}
+
 .copyright{
     text-align:end;
     font-weight:bold;
@@ -44,16 +39,16 @@
 }
 .links li{
     display:inline-block;
-    font-size:small;
+    font-size:small;    
     
 }
 .listheaders{
-    font-size:35px;
+    font-size:30px;
     font-family: monospace;
     text-decoration:underline;
     margin:0;
 }
-.list{
+list{
     font-size:20px;
 }
 .charsiu{
@@ -61,12 +56,27 @@
     float:right;
 }
 .rps{
-    width: 626px;
+    width: 613px;
     height:600px;
     flex-direction:row;
 }
-.table{
-    border:2px black;
+table{
+    border-collapse:collapse;
+    width:38%;
+    font-family:'Courier New', Courier, monospace;
+}
+th, td{
+    border: 2px solid black;
+}
+.spots{
+    width:100%;
+}
+.spotsp{
+    font-size:large;
+}
+.flexspot{
+    display:flex;
+    flex-direction:column;
 }
 body{
     background-color:lightblue;
